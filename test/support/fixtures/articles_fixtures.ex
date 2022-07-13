@@ -17,4 +17,18 @@ defmodule Discuss.ArticlesFixtures do
 
     topic
   end
+
+  @doc """
+  Generate a comments.
+  """
+  def comments_fixture(attrs \\ %{}) do
+    {:ok, comments} =
+      attrs
+      |> Enum.into(%{
+
+      })
+      |> Discuss.Articles.create_comments()
+
+    comments
+  end
 end
