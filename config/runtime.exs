@@ -1,5 +1,8 @@
 import Config
 
+# config :ueberauth, Ueberauth.Strategy.Github.OAuth,
+#   client_id: "2631a86fee082ecc48e0",
+#   client_secret: "c6eeb381bc555eb97c251411cac78073a8e25925"
 # config/runtime.exs is executed for all environments, including
 # during releases. It is executed after compilation and before the
 # system starts, so it is typically used to load production configuration

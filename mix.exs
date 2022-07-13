@@ -49,8 +49,10 @@ defmodule Discuss.MixProject do
       {:gettext, "~> 0.18"},
       {:jason, "~> 1.2"},
       {:plug_cowboy, "~> 2.5"},
-      {:ueberauth, "~> 0.10.1"},
-      {:ueberauth_github, "~> 0.7"}
+      {:ueberauth, "~> 0.7.0"},
+      {:ueberauth_github, "~> 0.8.1"},
+      {:oauth2, "~> 2.0", override: true},
+      {:plug_crypto, "~> 1.2"}
     ]
   end
 
