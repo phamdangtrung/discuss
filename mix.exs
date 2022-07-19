@@ -52,7 +52,8 @@ defmodule Discuss.MixProject do
       {:ueberauth, "~> 0.7.0"},
       {:ueberauth_github, "~> 0.8.1"},
       {:oauth2, "~> 2.0", override: true},
-      {:plug_crypto, "~> 1.2"}
+      {:plug_crypto, "~> 1.2"},
+      {:credo, "~> 1.6", only: [:dev, :test], runtime: false}
     ]
   end
 
